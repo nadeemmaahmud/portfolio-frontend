@@ -43,7 +43,7 @@ export const PROJECTS = [
     client: "🇸🇪 Swedish Client",
     gradient: "from-indigo-500 to-violet-500",
     description: "Freemium insurance guidance platform. Free users chat with a real-time AI agent via WebSocket; premium users upload documents for AI-driven guidance with automated weekly reminders.",
-    stack: ["Django", "Django Channels", "WebSocket", "Celery", "Redis", "Firebase", "PostgreSQL", "Docker"],
+    stack: ["Django", "Django Channels", "WebSocket", "Celery", "Redis", "Firebase", "PostgreSQL"],
   },
   {
     name: "Eat At Home",
@@ -51,7 +51,7 @@ export const PROJECTS = [
     client: "🇺🇸 US Client",
     gradient: "from-cyan-500 to-blue-500",
     description: "Meal tracking platform integrating Plaid API to pull real bank transaction data for accurate restaurant spending tracking and automated food expense categorization.",
-    stack: ["Django", "DRF", "Plaid API", "PostgreSQL", "Celery", "Firebase", "Docker"],
+    stack: ["Django", "DRF", "Plaid API", "PostgreSQL", "Celery", "Firebase"],
   },
   {
     name: "RnD Taxbot",
@@ -64,10 +64,10 @@ export const PROJECTS = [
   {
     name: "Animal Service",
     sub: "Pet E-commerce",
-    client: "🐾 E-commerce",
+    client: "🇸🇦 KSA Client",
     gradient: "from-amber-500 to-red-500",
     description: "Full-featured pet marketplace with auction system, digital wallet, real-time 1-on-1 chat, vet appointments, and Stripe payment integration.",
-    stack: ["Django", "Stripe", "WebSocket", "Digital Wallet", "PostgreSQL", "RBAC"],
+    stack: ["Django", "RabbitMQ", "Stripe", "WebSocket", "Digital Wallet", "PostgreSQL", "RBAC"],
   },
 ];
 

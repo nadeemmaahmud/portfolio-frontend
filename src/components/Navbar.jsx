@@ -1,7 +1,15 @@
 import { useState, useEffect } from "react";
 import { NAV_LINKS } from "../data";
 
-const TEXTS = ["python developer", "backend engineer", "problem solver"];
+const TEXTS = [
+  "backend developer",
+  "software engineer", 
+  "python developer",
+  "django developer",
+  "api architect",
+  "problem solver",
+  "competitive programmer",
+];
 
 export default function Navbar({ dark, setDark, active, goTo }) {
   const [displayed, setDisplayed] = useState("");
