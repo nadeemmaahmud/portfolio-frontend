@@ -29,7 +29,7 @@ export const EXPERIENCES = [
 
 export const SKILLS = [
   { category: "Languages", color: "indigo", items: ["Python", "JavaScript", "HTML", "CSS"] },
-  { category: "Frameworks", color: "violet", items: ["Django", "DRF", "FastAPI (learning)", "Bootstrap", "Tailwind"] },
+  { category: "Frameworks", color: "violet", items: ["Django", "DRF", "React.js", "Bootstrap", "Tailwind"] },
   { category: "Databases", color: "cyan", items: ["PostgreSQL", "MySQL", "SQLite"] },
   { category: "Brokers & Cache", color: "emerald", items: ["Redis", "RabbitMQ", "Celery"] },
   { category: "Backend & Architecture", color: "amber", items: ["REST API", "WebSocket", "JWT", "RBAC", "AI Microservice"] },
@@ -43,7 +43,7 @@ export const PROJECTS = [
     client: "🇸🇪 Swedish Client",
     gradient: "from-indigo-500 to-violet-500",
     description: "Freemium insurance guidance platform. Free users chat with a real-time AI agent via WebSocket; premium users upload documents for AI-driven guidance with automated weekly reminders.",
-    stack: ["Django", "Django Channels", "WebSocket", "Celery", "Redis", "Firebase", "PostgreSQL"],
+    stack: ["Django", "DRF", "WebSocket", "Django Channels", , "AI Microservice", "Celery", "Redis", "In App Purchase", "Firebase", "PostgreSQL", "VPS"],
   },
   {
     name: "Eat At Home",
@@ -51,7 +51,7 @@ export const PROJECTS = [
     client: "🇺🇸 US Client",
     gradient: "from-cyan-500 to-blue-500",
     description: "Meal tracking platform integrating Plaid API to pull real bank transaction data for accurate restaurant spending tracking and automated food expense categorization.",
-    stack: ["Django", "DRF", "Plaid API", "PostgreSQL", "Celery", "Firebase"],
+    stack: ["Django", "DRF", "Plaid API", "PostgreSQL", "AI Microservice", "Celery", "Redis", "Firebase", "CI/CD", "AWS EC2"],
   },
   {
     name: "RnD Taxbot",
@@ -59,7 +59,7 @@ export const PROJECTS = [
     client: "🇦🇺 Australian Client",
     gradient: "from-emerald-500 to-cyan-500",
     description: "Tax rebate automation with AI-powered interview flow via WebSocket. Multi-role approval: submission → AI scoring → approve/reject with resubmission flow.",
-    stack: ["Django", "WebSocket", "Celery", "Redis", "PostgreSQL", "RBAC"],
+    stack: ["Django", "DRF", "WebSocket", "Django Channels", "AI microservice", "Celery", "Redis", "PostgreSQL", "RBAC", "VPS"],
   },
   {
     name: "Animal Service",
@@ -67,7 +67,7 @@ export const PROJECTS = [
     client: "🇸🇦 KSA Client",
     gradient: "from-amber-500 to-red-500",
     description: "Full-featured pet marketplace with auction system, digital wallet, real-time 1-on-1 chat, vet appointments, and Stripe payment integration.",
-    stack: ["Django", "RabbitMQ", "Stripe", "WebSocket", "Digital Wallet", "PostgreSQL", "RBAC"],
+    stack: ["Django", "DRF", "Celery", "RabbitMQ", "Telr Payment Gateway", "Socket.IO", "Digital Wallet", "Twillio", "PostgreSQL", "Firebase", "One Signal", "CI/CD", "Docker", "RBAC", "VPS"],
   },
 ];
 
@@ -76,4 +76,37 @@ export const ACHIEVEMENTS = [
   { value: "38th", label: "CodeChef Weekly", sub: "All problems solved, June 2025", color: "text-cyan-400" },
   { value: "11th", label: "Inter Polytechnic", sub: "Programming Contest at IUBAT", color: "text-emerald-400" },
   { value: "4", label: "Live Projects", sub: "3 international clients", color: "text-amber-400" },
+];
+
+export const PROBLEM_SOLVING_PROFILES = [
+  {
+    platform: "LeetCode",
+    username: "nadeemmaahmud",
+    url: "https://leetcode.com/nadeemmaahmud/",
+    color: "text-[#FFA116] border-[#FFA116]/30 bg-[#FFA116]/5 hover:bg-[#FFA116]/10",
+  },
+  {
+    platform: "Codeforces",
+    username: "nadeemmaahmud",
+    url: "https://codeforces.com/profile/nadeemmaahmud/",
+    color: "text-[#3B82F6] border-[#3B82F6]/30 bg-[#3B82F6]/5 hover:bg-[#3B82F6]/10",
+  },
+  {
+    platform: "CodeChef",
+    username: "nadeemmaahmud",
+    url: "https://www.codechef.com/users/nadeemmaahmud/",
+    color: "text-[#905a37] border-[#905a37]/30 bg-[#905a37]/5 hover:bg-[#905a37]/10",
+  },
+  {
+    platform: "HackerRank",
+    username: "nadeemmaahmud",
+    url: "https://www.hackerrank.com/nadeemmaahmud/",
+    color: "text-[#2EC866] border-[#2EC866]/30 bg-[#2EC866]/5 hover:bg-[#2EC866]/10",
+  },
+  {
+    platform: "InterviewBit",
+    username: "nadeemmaahmud",
+    url: "https://www.interviewbit.com/profile/nadeemmaahmud/",
+    color: "text-[#007AFF] border-[#007AFF]/30 bg-[#007AFF]/5 hover:bg-[#007AFF]/10",
+  },
 ];

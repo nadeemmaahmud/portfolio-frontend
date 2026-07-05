@@ -17,7 +17,7 @@ export default function Hero({ dark, goTo }) {
         </p>
 
         <p className={`text-base leading-relaxed max-w-lg mb-8 ${dark ? "text-gray-400" : "text-gray-500"}`}>
-          Building scalable, production-ready backend systems. From real-time AI chatbots and payment integrations to e-commerce platforms. Based in Dhaka, Bangladesh.
+          Backend Engineer passionate about crafting scalable server architectures and efficient APIs. I bridge the gap between AI services and production apps, while continuously refining my logical thinking through competitive programming.
         </p>
 
         <div className="flex flex-wrap gap-3 mb-10">
