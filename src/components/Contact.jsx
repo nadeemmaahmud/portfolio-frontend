@@ -11,10 +11,10 @@ export default function Contact({ dark }) {
           ${dark ? "bg-[#1a1a2e] border-white/10" : "bg-white border-gray-200"}`}>
           <div className="absolute inset-0 bg-gradient-to-b from-indigo-500/10 to-transparent pointer-events-none" />
           <h3 className={`text-2xl font-extrabold mb-2 relative ${dark ? "text-white" : "text-gray-900"}`}>
-            Open to new opportunities 👋
+            Get in touch
           </h3>
           <p className={`text-sm mb-6 max-w-sm mx-auto relative ${dark ? "text-gray-400" : "text-gray-500"}`}>
-            Looking for a backend engineering role where clean architecture and reliable systems are valued. Feel free to reach out.
+            Have an interesting backend challenge, a job opening, or want to collaborate? My inbox is always open.
           </p>
           <div className="flex justify-center flex-wrap gap-3 relative">
             <a href="mailto:nadeemmaahmud.cse@gmail.com"

@@ -17,7 +17,7 @@ export default function Hero({ dark, goTo }) {
         </p>
 
         <p className={`text-base leading-relaxed max-w-lg mb-8 ${dark ? "text-gray-400" : "text-gray-500"}`}>
-          Backend Engineer passionate about crafting scalable server architectures and efficient APIs. I bridge the gap between AI services and production apps, while continuously refining my logical thinking through competitive programming.
+          A backend-focused software engineer specializing in Python and the Django ecosystem. I build secure, high-performance APIs and orchestrate asynchronous workflows using Celery and Redis. While my core expertise lies in server-side architecture and database optimization, I also design interactive user interfaces with React and Redux. I have worked with international teams to deploy AI-driven services, real-time messaging systems, and custom payment integrations."
         </p>
 
         <div className="flex flex-wrap gap-3 mb-10">

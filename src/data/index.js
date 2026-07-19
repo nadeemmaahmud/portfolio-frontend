@@ -28,12 +28,13 @@ export const EXPERIENCES = [
 ];
 
 export const SKILLS = [
-  { category: "Languages", color: "indigo", items: ["Python", "JavaScript", "HTML", "CSS"] },
-  { category: "Frameworks", color: "violet", items: ["Django", "DRF", "React.js", "Bootstrap", "Tailwind"] },
+  { category: "Languages", color: "indigo", items: ["Python", "JavaScript"] },
+  { category: "Frameworks", color: "violet", items: ["Django", "DRF", "React", "Redux"] },
+  { category: "Frontend & Styling", color: "violet", items: ["HTML", "CSS", "Tailwind", "Bootstrap"] },
   { category: "Databases", color: "cyan", items: ["PostgreSQL", "MySQL", "SQLite"] },
   { category: "Brokers & Cache", color: "emerald", items: ["Redis", "RabbitMQ", "Celery"] },
   { category: "Backend & Architecture", color: "amber", items: ["REST API", "WebSocket", "JWT", "RBAC", "AI Microservice"] },
-  { category: "Tools & DevOps", color: "red", items: ["Git", "Docker", "AWS", "CI/CD", "Postman", "VPS"] },
+  { category: "Tools & DevOps", color: "red", items: ["Git", "Docker", "VPS", "AWS", "CI/CD", "Postman"] },
 ];
 
 export const PROJECTS = [
@@ -43,7 +44,7 @@ export const PROJECTS = [
     client: "🇸🇪 Swedish Client",
     gradient: "from-indigo-500 to-violet-500",
     description: "Freemium insurance guidance platform. Free users chat with a real-time AI agent via WebSocket; premium users upload documents for AI-driven guidance with automated weekly reminders.",
-    stack: ["Django", "DRF", "WebSocket", "Django Channels", , "AI Microservice", "Celery", "Redis", "In App Purchase", "Firebase", "PostgreSQL", "VPS"],
+    stack: ["Django", "DRF", "WebSocket", "Django Channels", "AI Microservice", "Celery", "Redis", "In App Purchase", "Firebase", "PostgreSQL", "VPS"],
   },
   {
     name: "Eat At Home",
@@ -59,7 +60,7 @@ export const PROJECTS = [
     client: "🇦🇺 Australian Client",
     gradient: "from-emerald-500 to-cyan-500",
     description: "Tax rebate automation with AI-powered interview flow via WebSocket. Multi-role approval: submission → AI scoring → approve/reject with resubmission flow.",
-    stack: ["Django", "DRF", "WebSocket", "Django Channels", "AI microservice", "Celery", "Redis", "PostgreSQL", "RBAC", "VPS"],
+    stack: ["Django", "DRF", "WebSocket", "Django Channels", "AI Microservice", "Celery", "Redis", "PostgreSQL", "RBAC", "VPS"],
   },
   {
     name: "Animal Service",
@@ -67,7 +68,7 @@ export const PROJECTS = [
     client: "🇸🇦 KSA Client",
     gradient: "from-amber-500 to-red-500",
     description: "Full-featured pet marketplace with auction system, digital wallet, real-time 1-on-1 chat, vet appointments, and Stripe payment integration.",
-    stack: ["Django", "DRF", "Celery", "RabbitMQ", "Telr Payment Gateway", "Socket.IO", "Digital Wallet", "Twillio", "PostgreSQL", "Firebase", "One Signal", "CI/CD", "Docker", "RBAC", "VPS"],
+    stack: ["Django", "DRF", "Celery", "RabbitMQ", "Telr Payment Gateway", "Socket.IO", "Digital Wallet", "Twilio", "PostgreSQL", "Firebase", "OneSignal", "CI/CD", "Docker", "RBAC", "VPS"],
   },
 ];
 
