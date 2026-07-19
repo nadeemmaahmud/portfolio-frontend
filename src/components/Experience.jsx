@@ -2,7 +2,7 @@ import { EXPERIENCES } from "../data";
 
 export default function Experience({ dark }) {
   return (
-    <section id="experience" className={`transition-colors duration-300 ${dark ? "bg-[#0f0f1a]" : "bg-[#f1f5f9]"}`}>
+    <section id="experience" className={`transition-colors duration-300 ${dark ? "bg-[#0f0f1a]" : "bg-[#e2e8f0]"}`}>
       <div className="max-w-4xl mx-auto px-[5%] py-20">
 
         <p className="font-mono text-xs font-medium text-indigo-400 tracking-widest uppercase mb-1">Career</p>

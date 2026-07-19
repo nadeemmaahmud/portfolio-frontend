@@ -35,7 +35,7 @@ export default function App() {
   }, []);
 
   return (
-    <div className={`min-h-screen transition-colors duration-300 ${dark ? "bg-[#0d0d14] text-white" : "bg-[#f8fafc] text-slate-800"}`}>
+    <div className={`min-h-screen transition-colors duration-300 ${dark ? "bg-[#0d0d14] text-white" : "bg-[#f1f5f9] text-slate-800"}`}>
       <Navbar dark={dark} setDark={setDark} active={active} goTo={goTo} />
       <Hero dark={dark} goTo={goTo} />
       <Experience dark={dark} />

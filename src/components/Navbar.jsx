@@ -55,7 +55,7 @@ export default function Navbar({ dark, setDark, active, goTo }) {
   }, [charIndex, deleting, paused, textIndex]);
 
   return (
-    <nav className={`fixed top-0 left-0 right-0 z-50 h-14 flex items-center justify-between px-[5%] border-b backdrop-blur-md transition-colors duration-300 ${dark ? "bg-[#0d0d14]/90 border-white/10" : "bg-white/90 border-gray-200"}`}>
+    <nav className={`fixed top-0 left-0 right-0 z-50 h-14 flex items-center justify-between px-[5%] border-b backdrop-blur-md transition-colors duration-300 ${dark ? "bg-[#0d0d14]/90 border-white/10" : "bg-[#f1f5f9]/90 border-slate-200"}`}>
 
       {/* Logo */}
       <span className="font-mono text-xs sm:text-sm font-medium flex items-center gap-0 truncate mr-2">
@@ -109,7 +109,7 @@ export default function Navbar({ dark, setDark, active, goTo }) {
 
       {/* Mobile Navigation Dropdown Overlay */}
       {isOpen && (
-        <div className={`absolute top-14 left-0 right-0 border-b flex flex-col p-4 gap-1.5 md:hidden transition-all duration-300 ${dark ? "bg-[#0d0d14]/95 border-white/10" : "bg-white/95 border-gray-200"}`}>
+        <div className={`absolute top-14 left-0 right-0 border-b flex flex-col p-4 gap-1.5 md:hidden transition-all duration-300 ${dark ? "bg-[#0d0d14]/95 border-white/10" : "bg-[#f1f5f9]/95 border-slate-200"}`}>
           {NAV_LINKS.map((l) => (
             <button
               key={l}
