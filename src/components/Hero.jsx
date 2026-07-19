@@ -8,16 +8,16 @@ export default function Hero({ dark, goTo }) {
     <section id="about" className="min-h-screen flex items-center">
       <div className="max-w-4xl mx-auto px-[5%] pt-20 pb-16 w-full">
 
-        <h1 className={`text-5xl md:text-6xl font-extrabold leading-tight mb-2 ${dark ? "text-white" : "text-gray-900"}`}>
+        <h1 className={`text-5xl md:text-6xl font-extrabold leading-tight mb-4 ${dark ? "text-white" : "text-gray-900"}`}>
           Nadim Mahmud
         </h1>
 
-        <p className="font-mono text-lg font-medium bg-gradient-to-r from-indigo-400 to-cyan-400 bg-clip-text text-transparent mb-4">
+        <p className="font-mono text-lg font-medium bg-gradient-to-r from-indigo-400 to-cyan-400 bg-clip-text text-transparent mb-6">
           Backend Developer (Python)
         </p>
 
-        <p className={`text-base leading-relaxed max-w-lg mb-8 ${dark ? "text-gray-400" : "text-gray-500"}`}>
-          A backend-focused software engineer specializing in Python and the Django ecosystem. I build secure, high-performance APIs and orchestrate asynchronous workflows using Celery and Redis. While my core expertise lies in server-side architecture and database optimization, I also design interactive user interfaces with React and Redux. I have worked with international teams to deploy AI-driven services, real-time messaging systems, and custom payment integrations."
+        <p className={`text-base leading-8 max-w-2xl mb-10 ${dark ? "text-gray-400" : "text-gray-500"}`}>
+          A backend-focused software engineer specializing in Python and the Django ecosystem. I build secure, high-performance APIs and orchestrate asynchronous workflows using Celery and Redis. While my core expertise lies in server-side architecture and database optimization, I also design interactive user interfaces with React and Redux. I have worked with international teams to deploy AI-driven services, real-time messaging systems, and custom payment integrations.
         </p>
 
         <div className="flex flex-wrap gap-3 mb-10">
