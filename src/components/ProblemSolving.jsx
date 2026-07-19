@@ -6,7 +6,7 @@ export default function ProblemSolving({ dark }) {
       <p className="font-mono text-xs font-medium text-indigo-400 tracking-widest uppercase mb-1">
         Online Judges
       </p>
-      <h3 className={`text-2xl font-extrabold mb-1.5 ${dark ? "text-white" : "text-gray-900"}`}>
+      <h3 className={`text-2xl font-extrabold mb-1.5 ${dark ? "text-white" : "text-slate-800"}`}>
         Problem Solving Profiles
       </h3>
       <div className="w-10 h-0.5 bg-gradient-to-r from-indigo-500 to-violet-500 rounded mb-8" />
@@ -22,7 +22,7 @@ export default function ProblemSolving({ dark }) {
             <div className="flex flex-col h-full justify-between gap-2">
               <div>
                 <div className="font-extrabold text-sm">{profile.platform}</div>
-                <div className={`font-mono text-[10px] mt-1 truncate ${dark ? "text-gray-400" : "text-gray-500"}`}>
+                <div className={`font-mono text-[10px] mt-1 truncate ${dark ? "text-gray-400" : "text-slate-600"}`}>
                   @{profile.username}
                 </div>
               </div>

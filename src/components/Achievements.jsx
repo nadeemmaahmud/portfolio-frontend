@@ -6,7 +6,7 @@ export default function Achievements({ dark }) {
       <p className="font-mono text-xs font-medium text-indigo-400 tracking-widest uppercase mb-1">
         Competitive Programming
       </p>
-      <h3 className={`text-2xl font-extrabold mb-1.5 ${dark ? "text-white" : "text-gray-900"}`}>
+      <h3 className={`text-2xl font-extrabold mb-1.5 ${dark ? "text-white" : "text-slate-800"}`}>
         Achievements
       </h3>
       <div className="w-10 h-0.5 bg-gradient-to-r from-indigo-500 to-violet-500 rounded mb-8" />
@@ -15,13 +15,13 @@ export default function Achievements({ dark }) {
           <div
             key={a.label}
             className={`rounded-xl p-4 border text-center transition-all hover:-translate-y-0.5
-              ${dark ? "bg-[#1a1a2e] border-white/10" : "bg-white border-gray-200"}`}
+              ${dark ? "bg-[#1a1a2e] border-white/10" : "bg-[#f8fafc] border-slate-200/80"}`}
           >
             <div className={`text-3xl font-extrabold ${a.color}`}>{a.value}</div>
-            <div className={`font-bold text-sm mt-1 ${dark ? "text-white" : "text-gray-800"}`}>
+            <div className={`font-bold text-sm mt-1 ${dark ? "text-white" : "text-slate-700"}`}>
               {a.label}
             </div>
-            <div className={`text-xs mt-0.5 ${dark ? "text-gray-500" : "text-gray-400"}`}>
+            <div className={`text-xs mt-0.5 ${dark ? "text-gray-500" : "text-slate-600"}`}>
               {a.sub}
             </div>
           </div>
