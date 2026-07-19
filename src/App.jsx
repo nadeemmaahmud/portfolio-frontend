@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import Experience from "./components/Experience";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
+import AchievementsSection from "./components/AchievementsSection";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
@@ -34,12 +35,13 @@ export default function App() {
   }, []);
 
   return (
-    <div className={`min-h-screen transition-colors duration-300 ${dark ? "bg-[#0d0d14] text-white" : "bg-gray-50 text-gray-900"}`}>
+    <div className={`min-h-screen transition-colors duration-300 ${dark ? "bg-[#0d0d14]" : "bg-gray-50"}`}>
       <Navbar dark={dark} setDark={setDark} active={active} goTo={goTo} />
       <Hero dark={dark} goTo={goTo} />
       <Experience dark={dark} />
       <Skills dark={dark} />
       <Projects dark={dark} />
+      <AchievementsSection dark={dark} />
       <Contact dark={dark} />
       <Footer dark={dark} />
     </div>

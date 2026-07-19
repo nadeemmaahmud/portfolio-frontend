@@ -1,4 +1,4 @@
-export const NAV_LINKS = ["About", "Experience", "Skills", "Projects", "Contact"];
+export const NAV_LINKS = ["About", "Experience", "Skills", "Projects", "Achievements", "Contact"];
 
 export const EXPERIENCES = [
   {
