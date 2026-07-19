@@ -15,7 +15,7 @@ export default function Achievements({ dark }) {
           <div
             key={a.label}
             className={`rounded-xl p-4 border text-center transition-all hover:-translate-y-0.5
-              ${dark ? "bg-[#1a1a2e] border-white/10" : "bg-[#f8fafc] border-slate-200/80"}`}
+              ${dark ? "bg-[#1a1a2e] border-white/10" : "bg-white border-slate-100 shadow-[0_4px_20px_-4px_rgba(0,0,0,0.05)]"}`}
           >
             <div className={`text-3xl font-extrabold ${a.color}`}>{a.value}</div>
             <div className={`font-bold text-sm mt-1 ${dark ? "text-white" : "text-slate-700"}`}>

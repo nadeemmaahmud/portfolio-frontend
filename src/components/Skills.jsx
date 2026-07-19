@@ -25,7 +25,7 @@ export default function Skills({ dark }) {
               <div
                 key={s.category}
                 className={`rounded-xl p-4 border transition-all duration-200 hover:border-indigo-500 hover:-translate-y-0.5
-                  ${dark ? "bg-[#1a1a2e] border-white/10" : "bg-[#f8fafc] border-slate-200/80"}`}
+                  ${dark ? "bg-[#1a1a2e] border-white/10" : "bg-white border-slate-100 shadow-[0_4px_20px_-4px_rgba(0,0,0,0.05)]"}`}
               >
                 <div className="flex items-center gap-2 font-bold text-sm mb-3">
                   <span className={`w-2 h-2 rounded-full flex-shrink-0 ${c.dot}`} />

@@ -2,7 +2,7 @@ import { EXPERIENCES } from "../data";
 
 export default function Experience({ dark }) {
   return (
-    <section id="experience" className={`transition-colors duration-300 ${dark ? "bg-[#0f0f1a]" : "bg-[#e2e8f0]"}`}>
+    <section id="experience" className={`transition-colors duration-300 ${dark ? "bg-[#0f0f1a]" : "bg-[#f1f5f9]"}`}>
       <div className="max-w-4xl mx-auto px-[5%] py-20">
 
         <p className="font-mono text-xs font-medium text-indigo-400 tracking-widest uppercase mb-1">Career</p>
@@ -15,7 +15,7 @@ export default function Experience({ dark }) {
               key={e.role}
               className={`relative rounded-xl p-6 border overflow-hidden transition-all duration-200
                 hover:border-indigo-500 hover:shadow-lg hover:shadow-indigo-500/10
-                ${dark ? "bg-[#1a1a2e] border-white/10" : "bg-[#f8fafc] border-slate-200/80"}`}
+                ${dark ? "bg-[#1a1a2e] border-white/10" : "bg-white border-slate-100 shadow-[0_4px_20px_-4px_rgba(0,0,0,0.05)]"}`}
             >
               <div className="absolute left-0 top-0 bottom-0 w-0.5 bg-gradient-to-b from-indigo-500 to-cyan-500 rounded-l-xl" />
               <div className="flex flex-wrap justify-between items-start gap-2 mb-1">

@@ -8,7 +8,7 @@ export default function Contact({ dark }) {
         <div className="w-10 h-0.5 bg-gradient-to-r from-indigo-500 to-violet-500 rounded mb-10" />
 
         <div className={`rounded-2xl border p-10 text-center relative overflow-hidden
-          ${dark ? "bg-[#1a1a2e] border-white/10" : "bg-[#f8fafc] border-slate-200/80"}`}>
+          ${dark ? "bg-[#1a1a2e] border-white/10" : "bg-white border-slate-100 shadow-[0_4px_20px_-4px_rgba(0,0,0,0.05)]"}`}>
           <div className="absolute inset-0 bg-gradient-to-b from-indigo-500/10 to-transparent pointer-events-none" />
           <h3 className={`text-2xl font-extrabold mb-2 relative ${dark ? "text-white" : "text-slate-800"}`}>
             Open to new opportunities 👋
