@@ -3,13 +3,13 @@ import { PROJECTS } from "../data";
 export default function Projects({ dark }) {
   return (
     <section id="projects" className={`transition-colors duration-300 ${dark ? "bg-[#0f0f1a]" : "bg-[#f1f5f9]"}`}>
-      <div className="max-w-6xl mx-auto px-[5%] py-20">
+      <div className="max-w-[1400px] mx-auto px-6 md:px-10 py-20">
 
         <p className="font-mono text-xs font-medium text-indigo-400 tracking-widest uppercase mb-1">Work</p>
         <h2 className={`text-3xl font-extrabold mb-1.5 ${dark ? "text-white" : "text-slate-800"}`}>Projects</h2>
         <div className="w-10 h-0.5 bg-gradient-to-r from-indigo-500 to-violet-500 rounded mb-10" />
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 md:gap-8">
           {PROJECTS.map((p) => (
             <div
               key={p.name}

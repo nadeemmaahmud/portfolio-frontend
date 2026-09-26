@@ -12,7 +12,7 @@ const colorMap = {
 export default function Skills({ dark }) {
   return (
     <section id="skills">
-      <div className="max-w-6xl mx-auto px-[5%] py-20">
+      <div className="max-w-[1400px] mx-auto px-6 md:px-10 py-20">
 
         <p className="font-mono text-xs font-medium text-indigo-400 tracking-widest uppercase mb-1">Toolkit</p>
         <h2 className={`text-3xl font-extrabold mb-1.5 ${dark ? "text-white" : "text-slate-800"}`}>Technical Skills</h2>

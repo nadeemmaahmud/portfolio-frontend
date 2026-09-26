@@ -6,7 +6,7 @@ export default function Hero({ dark, goTo }) {
 
   return (
     <section id="about" className="min-h-screen flex items-center">
-      <div className="max-w-6xl mx-auto px-[5%] pt-20 pb-16 w-full">
+      <div className="max-w-[1400px] mx-auto px-6 md:px-10 pt-20 pb-16 w-full">
 
         <h1 className={`text-5xl md:text-6xl font-extrabold leading-tight mb-4 ${dark ? "text-white" : "text-gray-900"}`}>
           Nadim Mahmud
@@ -16,7 +16,7 @@ export default function Hero({ dark, goTo }) {
           Backend Developer (Python)
         </p>
 
-        <p className={`text-base leading-8 max-w-3xl mb-10 ${dark ? "text-gray-400" : "text-slate-600"}`}>
+        <p className={`text-base leading-8 max-w-4xl mb-10 ${dark ? "text-gray-400" : "text-slate-600"}`}>
           I am a Python Backend Developer focused on building scalable, event-driven systems and integrating AI microservices into production applications. I specialize in the Python/Django ecosystem, with deep experience in asynchronous architectures using Celery, Redis, and WebSockets. Beyond standard REST APIs, I enjoy solving complex performance bottlenecks, optimizing PostgreSQL databases, and automating cloud deployments. Coming from a background of solving 600+ competitive programming problems, I bring a strong analytical mindset and a genuine passion for writing clean, testable code in collaborative engineering teams.
         </p>
 
