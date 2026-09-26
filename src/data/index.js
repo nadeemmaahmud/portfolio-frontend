@@ -2,7 +2,7 @@ export const NAV_LINKS = ["About", "Experience", "Skills", "Projects", "Achievem
 
 export const EXPERIENCES = [
   {
-    role: "Jr. Backend Developer",
+    role: "Software Engineer",
     company: "Confidential Tech Startup",
     location: "Dhaka, Bangladesh",
     period: "Oct 2025 – Present",
