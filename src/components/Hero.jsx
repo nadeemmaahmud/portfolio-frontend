@@ -13,7 +13,7 @@ export default function Hero({ dark, goTo }) {
         </h1>
 
         <p className="font-mono text-lg font-medium bg-gradient-to-r from-indigo-400 to-cyan-400 bg-clip-text text-transparent mb-6">
-          Backend Developer (Python)
+          Software Engineer
         </p>
 
         <p className={`text-base leading-8 max-w-4xl mb-10 ${dark ? "text-gray-400" : "text-slate-600"}`}>
