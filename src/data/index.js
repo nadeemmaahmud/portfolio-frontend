@@ -86,7 +86,7 @@ export const ACHIEVEMENTS = [
   { value: "600+", label: "Problems Solved", sub: "Codeforces · LeetCode · HackerRank", color: "text-indigo-400" },
   { value: "38th", label: "CodeChef Weekly", sub: "All problems solved, June 2025", color: "text-cyan-400" },
   { value: "11th", label: "Inter Polytechnic", sub: "Programming Contest at IUBAT in 2016", color: "text-emerald-400" },
-  { value: "4", label: "Live Projects", sub: "3 international clients", color: "text-amber-400" },
+  { value: "4", label: "Live Projects", sub: "4 international clients", color: "text-amber-400" },
 ];
 
 export const PROBLEM_SOLVING_PROFILES = [
