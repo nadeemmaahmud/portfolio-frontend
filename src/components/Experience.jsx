@@ -3,7 +3,7 @@ import { EXPERIENCES } from "../data";
 export default function Experience({ dark }) {
   return (
     <section id="experience" className={`transition-colors duration-300 ${dark ? "bg-[#0f0f1a]" : "bg-[#f1f5f9]"}`}>
-      <div className="max-w-4xl mx-auto px-[5%] py-20">
+      <div className="max-w-6xl mx-auto px-[5%] py-20">
 
         <p className="font-mono text-xs font-medium text-indigo-400 tracking-widest uppercase mb-1">Career</p>
         <h2 className={`text-3xl font-extrabold mb-1.5 ${dark ? "text-white" : "text-slate-800"}`}>Experience</h2>

@@ -3,7 +3,7 @@ export const NAV_LINKS = ["About", "Experience", "Skills", "Projects", "Achievem
 export const EXPERIENCES = [
   {
     role: "Jr. Backend Developer",
-    company: "Join Venture AI",
+    company: "Confidential Tech Startup",
     location: "Dhaka, Bangladesh",
     period: "Oct 2025 – Present",
     points: [
@@ -36,15 +36,20 @@ export const SKILLS = [
   { category: "Brokers & Cache", color: "emerald", items: ["Redis", "RabbitMQ", "Celery"] },
   { category: "Tools & Testing", color: "red", items: ["Git", "Docker", "VPS", "AWS", "CI/CD", "Postman", "Pytest"] },
   { 
-    category: "Backend & Architecture", 
+    category: "System Architecture & Design", 
     color: "amber", 
-    items: ["RESTful API", "WebSocket", "JWT & RBAC", "API Caching", "Throttling", "Asynchronous Programming", "AI Microservices", "System Optimization"] 
+    items: ["Microservices", "Event-Driven Architecture", "Message Brokers", "Pub/Sub", "CQRS", "API Gateway", "System Optimization"] 
+  },
+  { 
+    category: "Backend Concepts", 
+    color: "indigo", 
+    items: ["RESTful API", "WebSocket", "Server-Sent Events (SSE)", "JWT & RBAC", "API Caching", "Throttling", "Asynchronous Programming", "AI Microservices"] 
   },
 ];
 
 export const PROJECTS = [
   {
-    name: "AI Powered Insurance App",
+    name: "AI-Powered Insurance App",
     sub: "Clamea",
     client: "🇸🇪 Swedish Client",
     gradient: "from-indigo-500 to-violet-500",
@@ -80,7 +85,7 @@ export const PROJECTS = [
 export const ACHIEVEMENTS = [
   { value: "600+", label: "Problems Solved", sub: "Codeforces · LeetCode · HackerRank", color: "text-indigo-400" },
   { value: "38th", label: "CodeChef Weekly", sub: "All problems solved, June 2025", color: "text-cyan-400" },
-  { value: "11th", label: "Inter Polytechnic", sub: "Programming Contest at IUBAT", color: "text-emerald-400" },
+  { value: "11th", label: "Inter Polytechnic", sub: "Programming Contest at IUBAT in 2016", color: "text-emerald-400" },
   { value: "4", label: "Live Projects", sub: "3 international clients", color: "text-amber-400" },
 ];
 
