@@ -27,8 +27,8 @@ export default function Hero({ dark, goTo }) {
           <button onClick={() => goTo("Contact")} className={btnOutline}>
             Get in Touch
           </button>
-          <a href="/Nadim_Mahmud.pdf" download="Nadim_Mahmud_CV.pdf" className={btnOutline}>
-            Download CV
+          <a href="/Nadim_Mahmud.pdf" target="_blank" rel="noopener noreferrer" className={btnOutline}>
+            View CV
           </a>
         </div>
 
