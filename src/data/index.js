@@ -32,7 +32,7 @@ export const SKILLS = [
   { category: "Languages", color: "indigo", items: ["Python", "JavaScript", "C", "C++"] },
   { category: "Frameworks & Libraries", color: "violet", items: ["Django", "DRF", "React", "Redux"] },
   { category: "Design & Styling", color: "amber", items: ["HTML", "CSS", "Tailwind", "Bootstrap"] },
-  { category: "Databases", color: "cyan", items: ["PostgreSQL", "MySQL", "SQLite"] },
+  { category: "Databases", color: "cyan", items: ["PostgreSQL", "MySQL", "MongoDB", "SQLite"] },
   { category: "Brokers & Cache", color: "emerald", items: ["Redis", "RabbitMQ", "Celery"] },
   { category: "Tools & Testing", color: "red", items: ["Git", "Docker", "VPS", "AWS", "CI/CD", "Postman", "Pytest"] },
   { 
